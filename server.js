@@ -2,6 +2,8 @@ const express = require('express');
 const path = require('path');
 const app = express();
 
+console.log(app.get('views'));
+
 app.set('views', path.join(__dirname, 'views'));
 
 app.set('view engine', 'ejs');
@@ -14,3 +16,4 @@ const PORT = 3000;
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);
 });
+

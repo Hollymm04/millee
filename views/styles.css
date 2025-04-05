@@ -1,5 +1,7 @@
 h1
 {
     font-size: 40px;
-    color: purple; 
+    color: purple;
+    align-items: center;
+    text-align: center; 
 }

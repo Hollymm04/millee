@@ -1,8 +1,34 @@
+
 h1
 {  
+    font-family:'Courier New', Courier, monospace;
     font-size: 40px;
     color: rgb(0, 0, 0);
     align-items: center;
     text-align: center; 
+    font-weight: bold;
+}
+.headshot
+{
+   border-radius: 20px;
+   position: relative; /* Change from absolute to relative for better responsiveness */
+   max-width: 100%;    /* Ensures the image scales with its container */
+   height: auto;       /* Maintains aspect ratio when resizing */
+   display: block;     /* Remove inline gap and treat as block for better layout */
+   margin: 20px auto;
+   right: 400px;
+}
+
+
+.intro
+{
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: -300px auto; 
+    width: fit-content;
+    font-size: 16px;
+    font-family:'Courier New', Courier, monospace;
+
 }
 

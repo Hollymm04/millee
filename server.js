@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
     res.render('index');
 });
 
-//put a port here to help with easy changes
+// put a port here to help with easy changes
 const port = 3002;
 app.listen(port, () => {
   console.log(`Server started on http://localhost:${port}`);

@@ -1,7 +1,9 @@
 h1
 {
+    font-family: 'Consolas', 'Courier New', monospace;
     font-size: 40px;
-    color: purple;
+    color: rgb(0, 0, 0);
     align-items: center;
     text-align: center; 
 }
+
